@@ -1,8 +1,8 @@
-# Amazon_Vine_Analysis
+# Amazon Vine Analysis
+## Overview
+The purpose of the Amazon Vine analysis is to analyze Amazon reviews written by paid Amazon Vine program members and determine if there is any bias toward favorable reviews from Vine members in a selected dataset.  As part of the project access was granted to approximately 50 datasets; the dataset chosen for this analysis was Clothing Apparel. [1]
 
-
-
-The purpose of the PyBer analysis is to analyze all the rideshare data from January to early May 2019 and create a visualization for the CEO, V. Isualize. We want to show the correlation of average fares compared to the total number of rides based on the total number of drivers for each city type (Urban, Suburban & Rural). The analysis and visualization will assist PyBer with improving access to ridesharing services and determine affordability for underserved neighborhoods
+In order to perform the analysis, we will utilize PySpark to extract the dataset, transform the data and load into PgAdmin via AWS RDS connection. Once we had the final data results, we utilized PySpark via Google Colab to analyze the data to determine if there is any bias between Vine and Non-Vine members.
 
 
 ## Results
@@ -22,3 +22,6 @@ The purpose of the PyBer analysis is to analyze all the rideshare data from Janu
 
 
 - What percentage of non-Vine reviews were 5 stars?
+
+
+## Summary
